@@ -1,0 +1,1 @@
+// JS soubory ve složce /styles/ se do výsledného článku zakompilují automaticky

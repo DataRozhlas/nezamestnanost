@@ -1,5 +1,7 @@
 library(readxl)
 library(jsonlite)
+library(lubridate)
+
 
 # míra nezaměstnanosti - čištění
 mira_nezam <- read_excel("../data/mira-nezam-pohlavi-kvartalne-93-17.xlsx")
@@ -14,4 +16,10 @@ mira_nezam$období <- row.names(mira_nezam)
 row.names(mira_nezam) <- c()
 names(mira_nezam) <- c("c", "m", "z", "o")
 
-toJSON(mira_nezam)
+
+
+toJSON(rev(mira_nezam$m))
+
+toJSON(rev(mira_nezam$o))
+
+
