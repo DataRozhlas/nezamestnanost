@@ -72,10 +72,6 @@ else:
 
 # pack styles
 temp = ''
-for style in os.listdir('./styles/'):
-    with open('./styles/' + style, encoding='utf-8') as css_file:
-        csmin = compress(css_file.read())
-        temp += csmin
 
 art['styles'] = art['styles'] + "<style>"+ temp + "</style>"
 

@@ -5,6 +5,7 @@ Highcharts.setOptions({
             'květen', 'červen', 'červenec', 'srpen',
             'září', 'říjen', 'listopad', 'prosinec'
         ],
+        shortMonths: ['led', 'úno', 'bře', 'dub', 'kvě', 'čvn', 'čvc', 'srp', 'zář', 'říj', 'lis', 'pro'],
         weekdays: [
             'neděle', 'pondělí', 'úterý', 'středa',
             'čtvrtek', 'pátek', 'sobota'

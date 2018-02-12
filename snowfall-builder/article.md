@@ -1,17 +1,13 @@
-title: "Nejsou lidi! Proč?"
-perex: "hhh"
-authors: ["Petr Kočí"]
-published: "12. února 2017"
-coverimg: 
-coverimg_note: ""
+title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
+perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
+authors: ["Jan Cibulka", "Petr Kočí"]
+published: "21. dubna 2017"
+coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
+coverimg_note: "Foto <a href='#'>ČTK</a>"
 styles: []
-libraries: ["https://unpkg.com/highcharts@6.0.6", "https://unpkg.com/highcharts@6.0.6/modules/annotations.js"] #jquery
-options: "noheader, nopic"
+libraries: [] #jquery
+options: "noheader" #wide, noheader (+nopic)
 ---
-<wide>
-	<div id="graf-1"></div>
-</wide>
-
 <left>
 	<p>
 	<b>KAREL HYNEK MÁCHA</b>
