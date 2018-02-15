@@ -55,7 +55,7 @@ Na jedno volné pracovní místo tak připadá 1,25 uchazeče. Číslo je ojedin
 
 Stavebních dělníků bylo v lednu na oficiálním trhu práce o 12,7 tisíce méně, než kolik jich zaměstnavatelé potřebují. Akutní je také nedostatek montážních dělníků, řidičů či svářečů. Českým podnikům chybějí například i vývojáři software, nemocnice shánějí přes tisíc zdravotních sester a jen o něco méně specializovaných lékařů či zubařů.
 
-<wide><h2>Po jakých profesích je největší poptávka?</h2><table id="tabulka" class="display" max-width="100%" cellspacing="0">
+<wide><h2>Po jakých profesích je největší poptávka?</h2><table id="tabulka" class="display" width="100%" cellspacing="0">
         <thead>
             <tr>
                 <th>profese</th>

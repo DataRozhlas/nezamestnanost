@@ -33,3 +33,7 @@
 	float: left;
 	}
 }
+
+ul li {
+	background: none;
+}
