@@ -1,4 +1,4 @@
-graf1 = Highcharts.chart('graf-2', {
+Highcharts.chart('graf-2', {
     
     chart: {
         type: 'column'

@@ -1,6 +1,35 @@
-#graf-* {
+#graf-1, #graf-2, #graf-3 {
 	min-width: 310px;
 	max-width: 1000px;
 	max-height: 400px;
-	margin: 0 auto
+	margin: 0 auto;
+}
+
+#graf-4 {
+	width: 295px;
+	height: 620px;
+	margin: auto 20px auto -120px;
+	float: left;
+}
+
+#tabulka {
+	font-size: 85%;
+}
+
+.content-one {
+    display:none;
+}
+
+.ramecek {
+	background-color: #DCDCDC;
+	padding: 20px 20px 15px 20px;
+	margin-bottom: 15px;
+	font-size: 90%;
+}
+
+@media only screen and (max-width: 880px) { 
+	#graf-4 {
+	margin: auto 20px auto 0px;
+	float: left;
+	}
 }

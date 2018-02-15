@@ -2,7 +2,7 @@ Highcharts.chart('graf-3', {
     
     
     title: {
-        text: 'Co nejvíc brání dalšímu růstu vaší firmy?'
+        text: 'Co nejvíc brání dalšímu růstu vaší firmy? (1=vůbec, 5=nejvíc)'
     },
     subtitle: {
         text: 'Výsledky statistického šetření ČNB v nefinančních podnicích'
@@ -10,7 +10,7 @@ Highcharts.chart('graf-3', {
 
     yAxis: {
         title: {
-            text: 'průměr ze všech odpovědí (1=vůbec, 5=nejvíc)'
+            text: 'průměr ze všech odpovědí'
         }
     },
     xAxis: {
@@ -32,8 +32,8 @@ Highcharts.chart('graf-3', {
     },
 
     tooltip: {
-        valueDecimals: 2,
-        valueSuffix: ' %'
+        valueDecimals: 1,
+        split: true
     },
 
     credits: {
